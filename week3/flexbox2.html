@@ -4,38 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flexbox2.html</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Sigmar&display=swap"
+        rel="stylesheet">
+
     <style>
         body {
             background-color: lightyellow;
+            font-family: 'Oxygen', sans-serif;
         }
 
         .container {
             display: flex;
             background-color: white;
-        }
-
-        .demo1 {
-            text-align: left 3;
-            width: 50%;
-            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .demo2 {
+            width: 50%;
+            height: auto;
+            cursor: pointer;
             text-align: right;
+            padding: 10px;
+        }
+
+        .container2 {
+            width: 100%;
+        }
+
+        .demo1 {
+            text-align: left;
             width: 50%;
             padding: 10px;
+        }
+
+        .demo3 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            margin-left: 550px;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container container1">
         <div class="demo1">
             <img src="image/logo-light-retina.png" alt="flexbox1" width="30%">
         </div>
         <div class="demo2">
             <img src="image/menu logo.png" alt="flexbox2" width="5%">
+        </div>
+    </div>
+
+    <br>
+
+
+    <div class="container container2">
+        <div class="demo1">
+            <img src="image/logo-light-retina.png" alt="flexbox1" width="590%">
+        </div>
+
+        <div class="demo3">
+            <img src="image/phone_logo.png" alt="contact" width="10%">
+            <p>555-123-4567</p>
+        </div>
+
+        <div class="demo2">
+            <img src="image/menu logo.png" alt="flexbox2" width="100%">
         </div>
     </div>
 </body>
