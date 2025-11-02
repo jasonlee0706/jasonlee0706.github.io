@@ -4,22 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>index.html</title>
+    <style>
+        body {
+            background-color: #5272A8;
+        }
+
+        .logo-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #7D9EC4;
+            border-radius: 14px;
+            line-height: 0.1;
+
+        }
+
+        .logo {
+            margin: 5px 10px;
+        }
+
+        .contact {
+            display: flex;
+            margin: 5px 10px;
+            gap: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="logo-bar">
         <div class="logo">
-            <img src="image/Logo.png" alt="Logo Jason Lee">
+            <img src="image/Logo.png" alt="Logo Jason Lee" width="70px">
         </div>
-        <div class="whatsapp">
-            <a href="image/whatsapp logo.png" alt="whatsapp logo"></a>
-        </div>
-        <div class="instagram">
-            <a href="image/Instagram logo.png" alt="instagram logo"></a>
-        </div>
-        <div class="discord">
-            <a href="image/discord logo.png" alt="discord logo"></a>
+        <div class="contact">
+            <div class="whatsapp">
+                <a class="whatsapp-logo" href="#">
+                    <img src="image/whatsapp logo.png" width="35" alt="whatsapp logo">
+                </a>
+            </div>
+            <div class="instagram">
+                <a class="instagram-logo" href="#">
+                    <img src="image/Instagram logo.png" width="35" alt="instagram logo">
+                </a>
+            </div>
+            <div class="discord">
+                <a class="discord-logo" href="#">
+                    <img src="image/discord logo.png" width="40" alt="discord logo">
+                </a>
+            </div>
         </div>
     </div>
 </body>
