@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <style>
         body {
             background-color: #5272A8;
@@ -28,6 +32,38 @@
             display: flex;
             margin: 0px 10px;
             gap: 10px;
+        }
+
+        .self-photo {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .self-photo img {
+            width: 200px;
+        }
+
+        .introduction {
+            font-family: 'Nunito';
+        }
+
+        .information {
+            text-align: center;
+        }
+
+        .information h2 {
+            font-size: 28px;
+        }
+
+        .information h3 {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .weekly-assignment {
+            display: flex;
+            font-family: 'Nunito';
         }
     </style>
 </head>
@@ -58,13 +94,39 @@
 
     <div class="introduction">
         <div class="self-photo">
-            <img src="image/self photo.jpg" alt="Logo Jason Lee" width="70px">
+            <img src="image/self photo.png" alt="Logo Jason Lee" width="70px">
         </div>
         <div class="information">
             <h2> Jason Lee Yong Ho </h2>
             <h3>Web Publishing</h3>
             <p>Hello! I'm Jason Lee Yong Ho, a web designer. I love travel and passionate to design website. Welcome to
                 my personal page!</p>
+        </div>
+    </div>
+
+    <div class="weekly-assignment">
+        <div class="weekly">
+            <h2>Week 1</h2>
+            <a href="#">Exercise 1</a>
+            <a href="#">Exercise 2</a>
+        </div>
+        <div class="weekly">
+            <h2>Week 2</h2>
+            <a href="#">Exercise 1</a>
+            <a href="#">Exercise 2</a>
+            <a href="#">Exercise 3</a>
+            <a href="#">Exercise 4</a>
+        </div>
+        <div class="weekly">
+            <h2>Week 3</h2>
+            <a href="#">Exercise 1</a>
+            <a href="#">Exercise 2</a>
+            <a href="#">Exercise 3</a>
+        </div>
+        <div class="weekly">
+            <h2>Week 4</h2>
+            <a href="#">Exercise 1</a>
+            <a href="#">Exercise 2</a>
         </div>
     </div>
 </body>
