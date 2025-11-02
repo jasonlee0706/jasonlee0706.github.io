@@ -197,6 +197,131 @@
             font-size: 14px;
         }
 
+        /* Tablet */
+        .tablet-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 3%;
+            display: none;
+        }
+
+        .tablet-content {
+            display: flex;
+            background-color: #f3f3f3;
+            border-radius: 25px;
+            font-family: 'space grotesk';
+            margin: 4% 3%;
+            padding: 28px 20px;
+            justify-content: space-between;
+            align-items: center;
+            display: none;
+        }
+
+        .tablet-image-poxitivus {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tablet-image-poxitivus img {
+            max-width: 85%;
+            height: auto;
+            display: block;
+        }
+
+        .tablet-text {
+            flex: 1;
+        }
+
+        .tablet-text h1 {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        .tablet-text p {
+            font-size: 18px;
+            line-height: 30px;
+            padding-right: 12%;
+            margin: auto;
+        }
+
+        .tablet-content2 {
+            display: flex;
+            background-color: #191A23;
+            font-family: 'space grotesk';
+            border-radius: 15px;
+            color: #ffffff;
+            margin: 5% 3%;
+            padding: 24px 20px;
+            display: none;
+        }
+
+        .tablet-Featured-text {
+            font-size: 20px;
+            color: black;
+            background: #B9FF66;
+            display: inline-block;
+            line-height: 0.1;
+            border-radius: 10px;
+            margin-left: 13px;
+        }
+
+        .tablet-Scalling-Sucess {
+            font-size: 22px;
+            margin-left: 13px;
+        }
+
+        .tablet-Paragraph {
+            font-size: 16px;
+            margin-left: 13px;
+        }
+
+        .tablet-read-icon {
+            display: flex;
+            margin-left: 15px;
+        }
+
+        .tablet-read-icon img {
+            width: 40px;
+            margin: auto 2px;
+
+        }
+
+        .tablet-percent-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 380px;
+            margin: 0 auto;
+            padding: 0 5%;
+        }
+
+        .tablet-percent-box {
+            flex: 0 0 calc(50% - 20px);
+            color: black;
+            background: #fff;
+            border-radius: 12px;
+            text-align: center;
+            padding: 20px 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 130px;
+        }
+
+        .tablet-percent-box h2 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .tablet-percent-box p {
+            margin-top: 6px;
+            font-size: 14px;
+        }
+
         /* Mobile */
         .mobile-menu {
             display: flex;
@@ -346,7 +471,7 @@
             font-size: 18px;
         }
 
-        @media screen and (min-width:1375px) {
+        @media screen and (min-width:1370px) {
 
             .navigation-bar {
                 display: block;
@@ -362,38 +487,24 @@
                 display: block;
                 display: flex;
             }
-
-            .mobile-menu,
-            .mobile-content,
-            .mobile-content2 {
-                display: none;
-            }
         }
 
-        @media screen and (max-width:1375px) {
 
-            .mobile-menu {
+        @media screen and (min-width:720px) {
+
+            .tablet-menu {
                 display: block;
                 display: flex;
             }
 
-            .mobile-content,
-            .mobile-content2 {
-                display: none;
-            }
-
-            .navigation-bar,
-            .content {
-                display: block;
-            }
-
-            .content2 {
+            .tablet-content,
+            .tablet-content2 {
                 display: block;
                 display: flex;
             }
         }
 
-        @media screen and (max-width:640px) {
+        @media screen and (max-width:720px) {
 
             .mobile-menu {
                 display: block;
@@ -407,7 +518,10 @@
 
             .navigation-bar,
             .content,
-            .content2 {
+            .content2,
+            .tablet-menu,
+            .tablet-content,
+            .tablet-content2 {
                 display: none;
             }
         }
@@ -498,7 +612,6 @@
         </div>
     </div>
 
-
     <div class="tablet-menu">
         <div class="logo">
             <img src="image/logo positivus.png" alt="Positivus Logo" width="200">
@@ -561,8 +674,6 @@
             </div>
         </div>
     </div>
-
-
 
     <div class="mobile-menu">
         <div class="logo">
