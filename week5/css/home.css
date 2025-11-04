@@ -1,0 +1,113 @@
+  body {
+      font-family: 'Oxygen', 'Space Grotesk', sans-serif;
+      color: #191A23;
+      background-color: #F3F3F3;
+      margin: 0;
+  }
+
+  .navigation-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      box-sizing: border-box;
+  }
+
+  .logo img {
+      height: 40px;
+  }
+
+  .menu {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .menu a {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+
+  .navigation-button button {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      border: 1px solid #191A23;
+      border-radius: 14px;
+      padding: 20px 26px;
+      background-color: transparent;
+      color: #191A23;
+  }
+
+  .navigation-button button:hover {
+      background-color: #191A23;
+      color: white;
+  }
+
+  .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 80px;
+      gap: 40px;
+  }
+
+  .text-area {
+      flex: 1;
+      max-width: 550px;
+  }
+
+  .text-area h1 {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 25px;
+  }
+
+  .text-area p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+  }
+
+  .text-area button {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 20px;
+      background-color: #191A23;
+      color: white;
+      padding: 20px 30px;
+      border: none;
+      border-radius: 14px;
+  }
+
+  .text-area button:hover {
+      background-color: transparent;
+      color: #191A23;
+      border: 2px solid #191A23;
+  }
+
+  .image-poxitivus img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .brand-select {
+      display: flex;
+      justify-content: center;
+      padding: 40px 0;
+  }
+
+  .logo-brand {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 100px;
+  }
+
+  .logo-brand img {
+      height: 50px;
+      display: block;
+  }
