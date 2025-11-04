@@ -1,0 +1,130 @@
+        body {
+            background-color: lightyellow;
+            font-family: 'Oxygen', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            background-color: white;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .container1 {
+            display: none;
+            width: 90%;
+            margin: auto;
+            padding: 8px;
+            margin-top: 50px;
+        }
+
+        .container2 {
+            display: none;
+            width: 90%;
+            margin: auto;
+            padding: 5px;
+            margin-top: 25px;
+        }
+
+        .container3 {
+            display: none;
+            width: 90%;
+            margin: auto;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        .logo {
+            align-items: center;
+        }
+
+        .menu {
+            align-items: center;
+            text-align: right;
+        }
+
+        .right {
+            font-weight: bold;
+            font-size: 11px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        .menu img {
+            width: 20px;
+        }
+
+        .contact img {
+            width: 20px;
+        }
+
+        .contact p {
+            margin-right: 10px;
+        }
+
+        .bootkeys {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .bootkeys a {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .contact-button {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(249, 97, 43);
+            border: none;
+            border-radius: 6px;
+            padding: 8px;
+        }
+
+        @media screen and (min-width: 400px) {
+            .container1 {
+                display: block;
+                display: flex;
+            }
+
+            .container2,
+            .container3 {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 720px) {
+            .container1 {
+                display: none;
+            }
+
+            .container2 {
+                display: block;
+                display: flex;
+            }
+        }
+
+        @media screen and (min-width: 1080px) {
+            .container2 {
+                display: none;
+            }
+
+            .container3 {
+                display: flex
+            }
+        }
