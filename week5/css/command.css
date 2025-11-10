@@ -24,44 +24,14 @@
       gap: 30px;
   }
 
-  .about-us {
-      background-color: #f3f3f3;
-      border: 1px #f3f3f3 solid;
-      border-radius: 5px;
-      padding: 4px 6px;
-  }
-
-  .services {
-      background-color: #f3f3f3;
-      border: 1px #f3f3f3 solid;
-      border-radius: 5px;
-      padding: 4px 6px;
-  }
-
-  .use-cases {
-      background-color: #f3f3f3;
-      border: 1px #f3f3f3 solid;
-      border-radius: 5px;
-      padding: 4px 6px;
-  }
-
-  .pricing {
-      background-color: #f3f3f3;
-      border: 1px #f3f3f3 solid;
-      border-radius: 5px;
-      padding: 4px 6px;
-  }
-
-  .blog {
-      background-color: #f3f3f3;
-      border: 1px #f3f3f3 solid;
+  .menu div {
       border-radius: 5px;
       padding: 4px 6px;
   }
 
   .menu a {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       text-decoration: none;
       color: black;
       font-weight: bold;

@@ -1,6 +1,7 @@
   .use-cases {
       background-color: #B9FF66;
-      border: 1px #B9FF66 solid;
+      border-radius: 8px;
+      padding: 4px 6px;
   }
 
   .content {
