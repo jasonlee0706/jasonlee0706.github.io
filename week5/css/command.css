@@ -1,0 +1,82 @@
+  body {
+      font-family: 'Space Grotesk', sans-serif;
+      color: #191A23;
+      background-color: #F3F3F3;
+      margin: 0;
+  }
+
+  .navigation-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      box-sizing: border-box;
+  }
+
+  .logo img {
+      height: 40px;
+  }
+
+  .menu {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+  }
+
+  .about-us {
+      background-color: #f3f3f3;
+      border: 1px #f3f3f3 solid;
+      border-radius: 5px;
+      padding: 4px 6px;
+  }
+
+  .services {
+      background-color: #f3f3f3;
+      border: 1px #f3f3f3 solid;
+      border-radius: 5px;
+      padding: 4px 6px;
+  }
+
+  .use-cases {
+      background-color: #f3f3f3;
+      border: 1px #f3f3f3 solid;
+      border-radius: 5px;
+      padding: 4px 6px;
+  }
+
+  .pricing {
+      background-color: #f3f3f3;
+      border: 1px #f3f3f3 solid;
+      border-radius: 5px;
+      padding: 4px 6px;
+  }
+
+  .blog {
+      background-color: #f3f3f3;
+      border: 1px #f3f3f3 solid;
+      border-radius: 5px;
+      padding: 4px 6px;
+  }
+
+  .menu a {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+
+  .navigation-button button {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      border: 1px solid #191A23;
+      border-radius: 14px;
+      padding: 20px 26px;
+      background-color: transparent;
+      color: #191A23;
+  }
+
+  .navigation-button button:hover {
+      background-color: #191A23;
+      color: white;
+  }
