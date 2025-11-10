@@ -1,19 +1,16 @@
   .content {
-      display: flex;
+      display: none;
       justify-content: space-between;
       align-items: center;
       margin: 2% 5%;
-      gap: 40px;
   }
 
   .text-area {
       flex: 1;
-      max-width: 550px;
   }
 
   .text-area h1 {
       font-size: 64px;
-      font-weight: 700;
       line-height: 1.2;
       margin-bottom: 25px;
   }
@@ -46,12 +43,60 @@
 
   .logo-brand {
       display: flex;
-      margin: 2% 5%;
+      flex-wrap: wrap;
+      margin: 5% 7%;
       filter: grayscale(100%);
       align-items: center;
-      gap: 5%;
+      justify-content: center;
+      gap: 50px;
   }
 
   .logo-brand img {
-      width: 200px;
+      flex: 0 0 calc(33.333% - 40px);
+      min-width: 120px;
+      max-width: 160px;
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  /*Mobile*/
+  .mobile-content {
+      display: none;
+      margin: 2% 5%;
+  }
+
+  .mobile-imagepoxitivus img {
+      width: 100%;
+  }
+
+  .mobile-textarea {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .mobile-textarea button {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      background-color: #191A23;
+      color: white;
+      padding: 25px 35px;
+      border: none;
+      border-radius: 14px;
+  }
+
+  @media screen and (max-width: 719px) {
+
+      .mobile-content {
+          display: block;
+          justify-content: center;
+      }
+  }
+
+  @media screen and (min-width: 720px) {
+
+      .content {
+          display: block;
+          display: flex;
+      }
   }
