@@ -2,7 +2,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 60px 80px;
+      margin: 2% 5%;
       gap: 40px;
   }
 
@@ -41,25 +41,17 @@
   }
 
   .image-poxitivus img {
-      width: 500px;
-      max-width: 100%;
-      height: auto;
-  }
-
-  .brand-select {
-      display: flex;
-      justify-content: center;
-      padding: 40px 0;
+      width: 100%;
   }
 
   .logo-brand {
       display: flex;
+      margin: 2% 5%;
+      filter: grayscale(100%);
       align-items: center;
-      justify-content: space-between;
-      gap: 100px;
+      gap: 5%;
   }
 
   .logo-brand img {
-      height: 50px;
-      display: block;
+      width: 200px;
   }

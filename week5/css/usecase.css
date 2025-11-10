@@ -118,14 +118,6 @@
   }
 
   /* Tablet */
-  .tablet-menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 3%;
-      display: none;
-  }
-
   .tablet-content {
       display: flex;
       background-color: #f3f3f3;
@@ -243,14 +235,6 @@
   }
 
   /* Mobile */
-  .mobile-menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 1%;
-      display: none;
-  }
-
   .image-poxitivus-mobile {
       display: flex;
       justify-content: center;

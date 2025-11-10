@@ -9,8 +9,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 80px;
+      margin: 2% 5%;
       box-sizing: border-box;
+      display: none;
   }
 
   .logo img {
@@ -79,4 +80,46 @@
   .navigation-button button:hover {
       background-color: #191A23;
       color: white;
+  }
+
+  /* Tablet */
+  .tablet-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 3%;
+      display: none;
+  }
+
+  /* Mobile */
+  .mobile-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1%;
+      display: none;
+  }
+
+  @media screen and (max-width: 719px) {
+
+      .mobile-menu {
+          display: block;
+          display: flex;
+      }
+  }
+
+  @media screen and (min-width: 720px) and (max-width: 1369px) {
+
+      .tablet-menu {
+          display: block;
+          display: flex;
+      }
+  }
+
+  @media screen and (min-width: 1370px) {
+
+      .navigation-bar {
+          display: block;
+          display: flex;
+      }
   }
