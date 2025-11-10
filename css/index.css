@@ -95,10 +95,6 @@
             font-size: 14px;
         }
 
-        .week4 {
-            max-width: 100%;
-        }
-
         .under-contact {
             font-family: 'Nunito';
             font-size: 12px;
@@ -120,17 +116,15 @@
 
         @media (max-width: 1080px) {
 
-            .weekly,
-            .week4 {
+            .weekly {
                 flex: 0 0 calc(50% - 20px);
                 max-width: calc(50% - 20px);
             }
         }
 
-        @media (max-width: 540px) {
+        @media (max-width: 640px) {
 
-            .weekly,
-            .week4 {
+            .weekly {
                 flex: 0 0 100%;
                 max-width: 100%;
             }
