@@ -5,10 +5,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(135deg,
+                    #000000 0%,
+                    #b40000 20%,
+                    #2b2b2b 45%,
+                    #002a62 70%,
+                    #000000 100%);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .wrap {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px 20px;
+        }
+
+        .audi-container,
+        .subaru-container,
+        .gtr-container {
+            width: 320px;
+            height: 600px;
+            border-radius: 30px;
+            padding: 24px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+            position: relative;
+        }
+
+        .audi-container {
+            background: #1a1a1a;
+            color: #ff1a1a;
+        }
+
+        .audi-icon img {
+            background: #ff1a1a;
+        }
+
+        .audi-view img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            padding: 8px;
+            background: #ff1a1a;
+        }
+
+        .audi-view h4 {
+            color: #ff1a1a;
+        }
+
+        .subaru-container {
+            background: #001633;
+            color: #ffe600;
+        }
+
+        .subaru-icon img {
+            background: #ffe600;
+        }
+
+        .subaru-view img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            padding: 8px;
+            background: #ffe600;
+        }
+
+        .subaru-view h4 {
+            color: #ffe600;
+        }
+
+        .gtr-container {
+            background: #616161;
+            color: white;
+        }
+
+        .gtr-icon img {
+            background: #fff;
+        }
+
+        .gtr-view img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            padding: 8px;
+            background: #ffffff;
+        }
+
+        .gtr-view h4 {
+            color: white;
+        }
+
+        .travel img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .audi-text h1,
+        .subaru-text h1,
+        .gtr-text h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .audi-text h2,
+        .subaru-text h2,
+        .gtr-text h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .audi-icon,
+        .subaru-icon,
+        .gtr-icon {
+            margin-top: 25px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .audi-icon img,
+        .subaru-icon img,
+        .gtr-icon img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            padding: 8px;
+        }
+
+        .audi-view,
+        .subaru-view,
+        .gtr-view {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            right: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
     <div class="wrap">
+
+        <!-- 一：Audi -->
         <div class="audi-container">
             <div class="travel">
                 <img src="image/audi.jpg">
@@ -20,9 +166,12 @@
             </div>
 
             <div class="audi-icon">
-                <a href="https://www.audiusa.com/en/models/a7/rs7/2026/overview/" target="_blank"><img
-                        src="image/google.png"></a>
-                <a href="https://pin.it/6lG5XO7N8" target="_blank"><img src="image/pinterest.png"></a>
+                <a href="https://www.audiusa.com/en/models/a7/rs7/2026/overview/" target="_blank">
+                    <img src="image/google.png">
+                </a>
+                <a href="https://pin.it/6lG5XO7N8" target="_blank">
+                    <img src="image/pinterest.png">
+                </a>
             </div>
 
             <div class="audi-view">
@@ -31,7 +180,7 @@
             </div>
         </div>
 
-        <!-- 二 -->
+        <!-- 二：Subaru -->
         <div class="subaru-container">
             <div class="travel">
                 <img src="image/subaru.jpg">
@@ -43,39 +192,48 @@
             </div>
 
             <div class="subaru-icon">
-                <a href="https://www.subaru.asia/my/en/brz/" target="_blank"><img src="image/google.png"></a>
-                <a href="https://pin.it/3a7VvEMP4" target="_blank"><img src="image/pinterest.png"></a>
+                <a href="https://www.subaru.asia/my/en/brz/" target="_blank">
+                    <img src="image/google.png">
+                </a>
+                <a href="https://pin.it/3a7VvEMP4" target="_blank">
+                    <img src="image/pinterest.png">
+                </a>
             </div>
 
             <div class="subaru-view">
                 <a href=""><img src="image/eye.png"></a>
                 <h4>4.7k people view</h4>
             </div>
+        </div>
 
-            <!-- 三 -->
-            <div class="gtr-container">
-                <div class="travel">
-                    <img src="image/gtr.jpg">
-                </div>
+        <!-- 三：GTR -->
+        <div class="gtr-container">
+            <div class="travel">
+                <img src="image/gtr.jpg">
+            </div>
 
-                <div class="gtr-text">
-                    <h1>NISSAN GTR-35</h1>
-                    <h2>Horsepower 565HP | 3.5sec 0-100km/h</h2>
-                </div>
+            <div class="gtr-text">
+                <h1>NISSAN GTR-35</h1>
+                <h2>Horsepower 565HP | 3.5sec 0-100km/h</h2>
+            </div>
 
-                <div class="gtr-icon">
-                    <a href="https://www.nissanusa.com/vehicles/sports-cars/gt-r.html" target="_blank"><img
-                            src="image/google.png"></a>
-                    <a href="https://pin.it/6lG5XO7N8" target="_blank"><img src="image/pinterest.png"></a>
-                </div>
+            <div class="gtr-icon">
+                <a href="https://www.nissanusa.com/vehicles/sports-cars/gt-r.html" target="_blank">
+                    <img src="image/google.png">
+                </a>
+                <a href="https://pin.it/6lG5XO7N8" target="_blank">
+                    <img src="image/pinterest.png">
+                </a>
+            </div>
 
-                <div class="gtr-view">
-                    <a href=""><img src="image/eye.png"></a>
-                    <h4>7.7k people view</h4>
-                </div>
+            <div class="gtr-view">
+                <a href=""><img src="image/eye.png"></a>
+                <h4>7.7k people view</h4>
             </div>
         </div>
+
     </div>
+
 </body>
 
 </html>
