@@ -245,6 +245,22 @@
         .gtr-like:hover+.gtr-likecard {
             opacity: 1;
         }
+
+        @media screen and (max-width: 980px) {
+
+            .wrap {
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+            }
+
+            .audi-container,
+            .subaru-container,
+            .gtr-container {
+                width: 90%;
+                max-width: 360px;
+            }
+        }
     </style>
 </head>
 
