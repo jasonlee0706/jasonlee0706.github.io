@@ -192,6 +192,58 @@
             padding: 8px;
             background: #ffffff;
         }
+
+        .audi-likecard,
+        .subaru-likecard,
+        .gtr-likecard {
+            display: flex;
+            position: absolute;
+            bottom: 100px;
+            left: 40px;
+            width: 320px;
+            background: rgba(0, 0, 0, 0.85);
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            opacity: 0;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .audi-likecard img,
+        .subaru-likecard img,
+        .gtr-likecard img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .audi-likecard h1,
+        .subaru-likecard h1,
+        .gtr-likecard h1 {
+            margin: 0;
+            font-size: 20px;
+            color: white;
+            line-height: 1.1;
+        }
+
+        .audi-likecard .line,
+        .subaru-likecard .line,
+        .gtr-likecard .line {
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: white;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .audi-like:hover+.audi-likecard,
+        .subaru-like:hover+.subaru-likecard,
+        .gtr-like:hover+.gtr-likecard {
+            opacity: 1;
+        }
     </style>
 </head>
 
