@@ -201,12 +201,13 @@
             bottom: 100px;
             left: 40px;
             width: 320px;
+            gap: 20px;
             background: rgba(0, 0, 0, 0.85);
             border-radius: 20px;
             padding: 15px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
             opacity: 0;
-            align-items: flex-start;
+            align-items: center;
             flex-wrap: wrap;
         }
 
@@ -219,18 +220,18 @@
             object-fit: cover;
         }
 
-        .audi-likecard h1,
-        .subaru-likecard h1,
-        .gtr-likecard h1 {
+        .audi-likecard .text,
+        .subaru-likecard .text,
+        .gtr-likecard .text {
+            display: flex;
+            height: 60px;
             margin: 0;
             font-size: 20px;
             color: white;
             line-height: 1.1;
         }
 
-        .audi-likecard .line,
-        .subaru-likecard .line,
-        .gtr-likecard .line {
+        .line {
             display: block;
             width: 100%;
             height: 3px;
@@ -282,9 +283,11 @@
             <div class="audi-likecard">
                 <img src="image/audi.jpg">
                 <h1>Like Audi RS7</h1>
-                <div class="line">
-                </div>
+
+                <div class="line"></div>
             </div>
+
+
         </div>
 
         <!-- 二：Subaru -->
@@ -316,15 +319,14 @@
                 <img src="image/heart.png">
             </div>
 
-            <div class="subaru-like">
-                <img src="image/heart.png">
-            </div>
-
             <div class="subaru-likecard">
                 <img src="image/subaru.jpg">
                 <h1>Like Subaru BRZ</h1>
+
                 <div class="line"></div>
             </div>
+
+
         </div>
 
         <!-- 三：GTR -->
@@ -356,13 +358,10 @@
                 <img src="image/heart.png">
             </div>
 
-            <div class="gtr-like">
-                <img src="image/heart.png">
-            </div>
-
             <div class="gtr-likecard">
                 <img src="image/gtr.jpg">
                 <h1>Like Nissan GTR</h1>
+
                 <div class="line"></div>
             </div>
         </div>
