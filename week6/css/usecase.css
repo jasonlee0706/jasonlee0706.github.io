@@ -286,11 +286,12 @@
 
   .mobile-text-content2 {
       display: flex;
+      gap: 15px;
       margin: 7%;
   }
 
   .mobile-star-icon img {
-      margin-top: 46px;
+      margin-top: 26px;
       width: 25px;
   }
 
